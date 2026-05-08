@@ -7,6 +7,8 @@ print("Username:", credentials[0])
 print("Password:", credentials[1])
 
 # Tuple values often have meaning by position
+# In this tuple, the first value represents the username and the second value represents the account status.
+# The position itself has meaning.
 user = ("admin", "active")
 print("User tuple:", user)
 
