@@ -8,6 +8,7 @@ for i in range(5):
 # ==========================================================
 # Repeat actions multiple times
 # ==========================================================
+
 print("\nRunning test iterations:")
 for i in range(3):
     print(f"Running test iteration {i}")
@@ -15,6 +16,7 @@ for i in range(3):
 # ==========================================================
 # range(start, stop)
 # ==========================================================
+
 print("\nrange(2, 6):")
 for i in range(2, 6):
     print(i)
@@ -22,6 +24,7 @@ for i in range(2, 6):
 # ==========================================================
 # range(start, stop, step)
 # ==========================================================
+
 print("\nrange(0, 10, 2):")
 for i in range(0, 10, 2):
     print(i)
@@ -29,6 +32,7 @@ for i in range(0, 10, 2):
 # ==========================================================
 # Looping through a list with indexes
 # ==========================================================
+
 users_list = ["admin", "guest", "tester"]
 print("\nLooping through list with indexes:")
 for i in range(len(users_list)):
@@ -37,6 +41,7 @@ for i in range(len(users_list)):
 # ==========================================================
 # Looping through a tuple with indexes
 # ==========================================================
+
 users_tuple = ("admin", "guest", "tester")
 print("\nLooping through tuple with indexes:")
 for i in range(len(users_tuple)):
@@ -45,6 +50,7 @@ for i in range(len(users_tuple)):
 # ==========================================================
 # QA-style example with status codes
 # ==========================================================
+
 status_codes = [200, 201, 400, 500]
 print("\nChecking status codes:")
 for i in range(len(status_codes)):
@@ -53,6 +59,7 @@ for i in range(len(status_codes)):
 # ==========================================================
 # QA-style example with expected values
 # ==========================================================
+
 expected_values = ("Success", "Completed", "Approved")
 print("\nExpected values:")
 for i in range(len(expected_values)):
